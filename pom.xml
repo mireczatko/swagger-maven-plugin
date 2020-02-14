@@ -468,14 +468,14 @@
 
     <distributionManagement>
         <snapshotRepository>
-            <id>sonatype-nexus-snapshots</id>
-            <name>Sonatype Nexus Snapshots</name>
-            <url>${sonatypeOssDistMgmtSnapshotsUrl}</url>
+            <id>maven-snapshots</id>
+            <name>maven-snapshots</name>
+            <url>https://repoman.bss.swan.sk/repository/maven-snapshots/</url>
         </snapshotRepository>
         <repository>
-            <id>sonatype-nexus-staging</id>
-            <name>Nexus Release Repository</name>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+            <id>maven-releases</id>
+            <name>maven-releases</name>
+            <url>https://repoman.bss.swan.sk/repository/maven-releases/</url>
         </repository>
     </distributionManagement>
 </project>
