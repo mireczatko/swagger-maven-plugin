@@ -1,10 +1,56 @@
-/target/
-/apidocsf/
-/test.html
-.idea
-*.iml
-/.settings/
-/.classpath
-/.project
 /generated/
 /test-output/
+/apidocsf/
+/test.html
+
+### common ###
+**/HELP.md
+**/*ignoreMe.*
+**/*ignoreMe
+**/ignoreMe*.*
+**/ignoreMe*
+**/bin/
+**/logs/
+**/tmp/
+**/*.log
+**/build/
+**/application.pid
+
+### maven ###
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+**/dependency-reduced-pom.xml
+**/target/
+**/pom.xml.versionsBackup
+
+### eclipse ###
+**/.project
+**/.classpath
+**/.settings/
+**/.factorypath
+**/.apt_generated
+**/.springBeans
+**/.sts4-cache
+**/.dbeaver/
+**/.tern-project
+
+### IntelliJ IDEA ###
+**/.idea/
+**/*.iws
+**/*.iml
+**/*.ipr
+
+### NetBeans ###
+**/nbproject/private/
+**/build/
+**/nbbuild/
+**/dist/
+**/nbdist/
+**/.nb-gradle/
+
+### VS Code ###
+**/.vscode/
+
+### MacOS ###
+**/.DS_Store
